@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.multi_screen_app">
+    package="com.example.multi_screen_app" >
 
     <application
         android:allowBackup="true"
@@ -8,8 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MultiScreenApp">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.MultiScreenApp" >
+        <activity
+            android:name=".tour"
+            android:exported="true"
+            android:label="@string/title_activity_tour"
+            android:theme="@style/Theme.MultiScreenApp.NoActionBar" />
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
