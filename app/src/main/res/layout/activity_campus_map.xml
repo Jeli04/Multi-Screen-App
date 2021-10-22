@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tour">
+    tools:context=".campusMap">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_tour" />
+    <include layout="@layout/content_campus_map" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -30,6 +30,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_marginRight="@dimen/fab_margin" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

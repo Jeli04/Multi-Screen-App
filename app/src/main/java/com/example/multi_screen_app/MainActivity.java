@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button startTour = findViewById(R.id.startTour);
-        startTour.setOnClickListener(new View.OnClickListener() {
+        Button campusMap = findViewById(R.id.campusMap);
+        campusMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, tour.class));
+                startActivity(new Intent(MainActivity.this, campusMap.class));
             }
         });
     }

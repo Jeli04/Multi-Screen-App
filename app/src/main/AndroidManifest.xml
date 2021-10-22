@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MultiScreenApp" >
         <activity
-            android:name=".tour"
+            android:name=".campusMap"
             android:exported="true"
             android:label="@string/title_activity_tour"
             android:theme="@style/Theme.MultiScreenApp.NoActionBar" />

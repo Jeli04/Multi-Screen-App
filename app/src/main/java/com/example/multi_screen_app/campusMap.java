@@ -1,25 +1,27 @@
 package com.example.multi_screen_app;
 
 import android.os.Bundle;
+
+import com.example.multi_screen_app.databinding.ActivityCampusMapBinding;
 import com.google.android.material.snackbar.Snackbar;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import com.example.multi_screen_app.databinding.ActivityTourBinding;
 
-public class tour extends AppCompatActivity {
-
+public class campusMap extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
-private ActivityTourBinding binding;
+private @NonNull ActivityCampusMapBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-     binding = ActivityTourBinding.inflate(getLayoutInflater());
+     binding = ActivityCampusMapBinding.inflate(getLayoutInflater());
      setContentView(binding.getRoot());
 
         setSupportActionBar(binding.toolbar);
