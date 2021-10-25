@@ -9,30 +9,68 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#0A80DD"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mountain House High School" />
+            android:layout_gravity="center_horizontal"
+            android:text="Mountain House High School"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:src="@drawable/school_map" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button_first"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/next" />
-
             <TextView
                 android:id="@+id/aBuilding"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="A Building" />
+                android:text="A Building"
+                android:textColor="@color/black"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/cBuilding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C Building"
+                android:textColor="@color/black"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/eBuilding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E Building"
+                android:textColor="@color/black"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/gym"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gymnasium"
+                android:textColor="@color/black"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/library"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Library"
+                android:textColor="@color/black"
+                android:textSize="45dp" />
         </LinearLayout>
 
     </LinearLayout>

@@ -40,13 +40,30 @@ private FragmentFirstBinding binding;
             }
         });
 
-        binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
+        binding.cBuilding.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
             }
         });
+
+        binding.eBuilding.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(FirstFragment.this)
+                        .navigate(R.id.action_FirstFragment_to_SecondFragment);
+            }
+        });
+
+        binding.gym.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(FirstFragment.this)
+                        .navigate(R.id.action_FirstFragment_to_SecondFragment);
+            }
+        });
+
     }
 
 @Override

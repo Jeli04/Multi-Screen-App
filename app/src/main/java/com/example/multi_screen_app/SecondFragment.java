@@ -1,5 +1,6 @@
 package com.example.multi_screen_app;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,8 +13,8 @@ import com.example.multi_screen_app.databinding.FragmentSecondBinding;
 
 public class SecondFragment extends Fragment {
 
-private FragmentSecondBinding binding;
 
+private FragmentSecondBinding binding;
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -36,6 +37,7 @@ private FragmentSecondBinding binding;
             }
         });
     }
+
 
 @Override
     public void onDestroyView() {
