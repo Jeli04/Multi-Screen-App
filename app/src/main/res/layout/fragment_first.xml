@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Mountain House High School"
+            android:layout_margin="25dp"
             android:textColor="@color/white"
             android:textSize="20dp" />
 

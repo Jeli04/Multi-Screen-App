@@ -7,14 +7,27 @@
     android:orientation="vertical"
     tools:context=".SecondFragment">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        tools:src="@tools:sample/avatars" />
+
     <androidx.viewpager2.widget.ViewPager2
         android:layout_width="match_parent"
-        android:layout_height="438dp" />
+        android:layout_height="109dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information goes here" />
 
     <Button
         android:id="@+id/button_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="@string/previous" />
 
 </LinearLayout>
