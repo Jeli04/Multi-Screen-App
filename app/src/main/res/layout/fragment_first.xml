@@ -9,23 +9,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0A80DD"
+        android:background="#FFFFFF"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Mountain House High School"
-            android:layout_margin="25dp"
-            android:textColor="@color/white"
-            android:textSize="20dp" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/mhhslogo_removebg_preview" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="259dp"
+            android:layout_height="237dp"
             android:src="@drawable/school_map" />
 
         <LinearLayout
@@ -37,6 +34,7 @@
                 android:id="@+id/aBuilding"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#4FA7EA"
                 android:text="A Building"
                 android:textColor="@color/black"
                 android:textSize="45dp" />
@@ -47,6 +45,7 @@
                 android:layout_height="wrap_content"
                 android:text="C Building"
                 android:textColor="@color/black"
+                android:background="#979696"
                 android:textSize="45dp" />
 
             <TextView
@@ -55,6 +54,7 @@
                 android:layout_height="wrap_content"
                 android:text="E Building"
                 android:textColor="@color/black"
+                android:background="#4FA7EA"
                 android:textSize="45dp" />
 
             <TextView
@@ -63,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:text="Gymnasium"
                 android:textColor="@color/black"
+                android:background="#979696"
                 android:textSize="45dp" />
 
             <TextView
@@ -71,6 +72,7 @@
                 android:layout_height="wrap_content"
                 android:text="Library"
                 android:textColor="@color/black"
+                android:background="#4FA7EA"
                 android:textSize="45dp" />
         </LinearLayout>
 
