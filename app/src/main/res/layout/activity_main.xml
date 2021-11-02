@@ -4,40 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0A80DD"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/logo"
+
+    <ImageView
+        android:id="@+id/background"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:text="MOUNTAIN HOUSE \nHigh School" />
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/abuilding2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        app:srcCompat="@drawable/textlogowithimage" />
 
     <Button
         android:id="@+id/startTour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="80dp"
-        android:text="Begin tour" />
-
-    <Button
-        android:id="@+id/campusMap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Campus Map" />
+        android:layout_marginBottom="120dp"
+        android:text="Campus Tour" />
 
     <Button
         android:id="@+id/building"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
-        android:text="Building" />
+        android:layout_marginBottom="40dp"
+        android:text="Buildings" />
+
+    <Button
+        android:id="@+id/Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Information" />
 
 </FrameLayout>

@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button campusMap = findViewById(R.id.campusMap);
+        Button campusMap = findViewById(R.id.startTour);
         campusMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

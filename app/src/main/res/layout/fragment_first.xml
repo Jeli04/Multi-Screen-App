@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".FirstFragment">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,14 +17,14 @@
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="match_parent"
-            android:layout_height="103dp"
+            android:layout_height="98dp"
             android:background="#FFFFFF"
-            android:src="@drawable/mhhslogo_removebg_preview" />
+            android:src="@drawable/textlogowithimage" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="237dp"
+            android:layout_height="220dp"
             android:src="@drawable/school_map" />
 
         <LinearLayout
@@ -43,39 +45,48 @@
                 android:id="@+id/cBuilding"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#979696"
                 android:text="C Building"
                 android:textColor="@color/black"
-                android:background="#979696"
                 android:textSize="45dp" />
 
             <TextView
                 android:id="@+id/eBuilding"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#4FA7EA"
                 android:text="E Building"
                 android:textColor="@color/black"
-                android:background="#4FA7EA"
                 android:textSize="45dp" />
 
             <TextView
                 android:id="@+id/gym"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#979696"
                 android:text="Gymnasium"
                 android:textColor="@color/black"
-                android:background="#979696"
                 android:textSize="45dp" />
 
             <TextView
                 android:id="@+id/library"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#4FA7EA"
                 android:text="Library"
                 android:textColor="@color/black"
-                android:background="#4FA7EA"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#979696"
+                android:text="Theather"
+                android:textColor="@color/black"
                 android:textSize="45dp" />
         </LinearLayout>
 
     </LinearLayout>
 
-</FrameLayout>
+</LinearLayout>
