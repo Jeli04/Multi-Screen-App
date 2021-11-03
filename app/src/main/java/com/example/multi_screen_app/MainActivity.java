@@ -21,5 +21,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, campusMap.class));
             }
         });
+
+        Button information = findViewById(R.id.informationPage);
+        information.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, InformationPage.class));
+            }
+        });
     }
 }

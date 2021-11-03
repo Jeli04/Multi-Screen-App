@@ -12,9 +12,12 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald_bold"
         android:gravity="center_horizontal"
+        android:text="A Building"
         android:textSize="40dp"
-        android:text="A Building" />
+        android:textColor="#6495ED"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -26,7 +29,12 @@
         android:id="@+id/Information"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Information goes here" />
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/alice"
+        android:text="The A building the front office of Mountain House High School. Inside you can also find the ASB office, counselor offices, and classrooms for language and physics classes." />
 
     <Button
         android:id="@+id/back"

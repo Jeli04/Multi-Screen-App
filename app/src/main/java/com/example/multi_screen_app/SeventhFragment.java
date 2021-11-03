@@ -9,9 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
-public class FourthFragment extends Fragment {
-
+public class SeventhFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -22,15 +20,14 @@ public class FourthFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_fourth, container, false);
+        View view = inflater.inflate(R.layout.fragment_seventh, container, false);
 
         view.findViewById(R.id.back).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(FourthFragment.this)
-                        .navigate(R.id.action_fourthFragment_to_FirstFragment);
+                NavHostFragment.findNavController(SeventhFragment.this)
+                        .navigate(R.id.action_seventhFragment_to_FirstFragment);
             }
         });
 

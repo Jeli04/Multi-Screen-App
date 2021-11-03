@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ThirdFragment">
+    tools:context=".SeventhFragment">
 
     <TextView
         android:id="@+id/title"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/oswald_bold"
         android:gravity="center_horizontal"
-        android:text="C Building"
+        android:text="Multi-Purpose Room"
         android:textSize="40dp"
         android:textColor="#6495ED"
         android:textStyle="bold" />
@@ -32,8 +32,7 @@
         android:textStyle="bold"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/alice"
-        android:text="The C building is to the right of the front office and houses the Science, Math, Health, and History departments. This is the main building for classes that you will be spending most of your time in.
-" />
+        android:text="The MPR, in between the Gym and Theatre, houses the Cafeteria and Maintenance Rooms. Inside contains seating and a small stage." />
 
 
     <Button
@@ -42,4 +41,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/previous" />
+
 </LinearLayout>
