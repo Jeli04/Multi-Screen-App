@@ -22,12 +22,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button information = findViewById(R.id.informationPage);
+        Button information = findViewById(R.id.Information);
         information.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, InformationPage.class));
+                startActivity(new Intent(MainActivity.this, InformationSection.class));
             }
         });
+
+
     }
 }

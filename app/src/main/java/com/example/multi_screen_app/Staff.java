@@ -10,11 +10,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.multi_screen_app.databinding.FragmentInformationPageBinding;
+import com.example.multi_screen_app.databinding.FragmentStaffBinding;
 
-public class InformationPage extends Fragment {
+public class Staff extends Fragment {
 
-    private FragmentInformationPageBinding binding;
+    private FragmentStaffBinding binding;
 
     @Override
     public View onCreateView(
@@ -22,7 +22,7 @@ public class InformationPage extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentInformationPageBinding.inflate(inflater, container, false);
+        binding = FragmentStaffBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -33,16 +33,16 @@ public class InformationPage extends Fragment {
         binding.back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), MainActivity.class);
-                startActivity(intent);
+                NavHostFragment.findNavController(Staff.this)
+                        .navigate(R.id.action_Second2Fragment_to_First2Fragment);
             }
         });
 
-        binding.staff.setOnClickListener(new View.OnClickListener() {
+        binding.Home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(InformationPage.this)
-                        .navigate(R.id.action_First2Fragment_to_Second2Fragment);
+                Intent intent = new Intent(getActivity(), MainActivity.class);
+                startActivity(intent);
             }
         });
     }

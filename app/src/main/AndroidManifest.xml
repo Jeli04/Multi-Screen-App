@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MultiScreenApp">
-        <activity android:name=".MainActivity2"></activity>
+        <activity
+            android:name=".InformationSection"
+            android:label="@string/title_activity_information_section"
+            android:theme="@style/Theme.MultiScreenApp.NoActionBar"></activity>
+        <activity android:name=".MainActivity2" />
         <activity
             android:name=".campusMap"
             android:exported="true"
