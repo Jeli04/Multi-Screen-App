@@ -21,7 +21,7 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="281dp"
-        android:src="@drawable/abuilding1" />
+        android:src="@drawable/cbuilding" />
 
     <TextView
         android:id="@+id/Information"
@@ -41,5 +41,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="40dp"
         android:text="@string/previous" />
 </LinearLayout>

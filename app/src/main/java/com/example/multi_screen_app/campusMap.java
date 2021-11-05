@@ -1,5 +1,6 @@
 package com.example.multi_screen_app;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.multi_screen_app.databinding.ActivityCampusMapBinding;
@@ -30,13 +31,18 @@ private @NonNull ActivityCampusMapBinding binding;
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
-        binding.fab.setOnClickListener(new View.OnClickListener() {
+        setSupportActionBar(binding.toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        binding.toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
             }
         });
+
+        getSupportActionBar().setTitle("MHHS Tour");
     }
 
     @Override

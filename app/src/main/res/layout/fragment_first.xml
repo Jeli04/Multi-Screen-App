@@ -40,7 +40,7 @@
                 android:fontFamily="@font/oswald_bold"
                 android:text="A Building"
                 android:textColor="@color/black"
-                android:textSize="35dp" />
+                android:textSize="32dp" />
 
             <TextView
                 android:id="@+id/cBuilding"
@@ -50,7 +50,7 @@
                 android:fontFamily="@font/oswald_bold"
                 android:text="C Building"
                 android:textColor="@color/black"
-                android:textSize="35dp" />
+                android:textSize="32dp" />
 
             <TextView
                 android:id="@+id/eBuilding"
@@ -60,7 +60,7 @@
                 android:fontFamily="@font/oswald_bold"
                 android:text="E Building"
                 android:textColor="@color/black"
-                android:textSize="35dp" />
+                android:textSize="32dp" />
 
             <TextView
                 android:id="@+id/gym"
@@ -70,7 +70,7 @@
                 android:fontFamily="@font/oswald_bold"
                 android:text="Gymnasium"
                 android:textColor="@color/black"
-                android:textSize="35dp" />
+                android:textSize="32dp" />
 
             <TextView
                 android:id="@+id/library"
@@ -80,7 +80,7 @@
                 android:fontFamily="@font/oswald_bold"
                 android:text="Library"
                 android:textColor="@color/black"
-                android:textSize="35dp" />
+                android:textSize="32dp" />
 
             <TextView
                 android:id="@+id/theatre"
@@ -90,7 +90,17 @@
                 android:fontFamily="@font/oswald_bold"
                 android:text="Theatre"
                 android:textColor="@color/black"
-                android:textSize="35dp" />
+                android:textSize="32dp" />
+
+            <TextView
+                android:id="@+id/mpr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4FA7EA"
+                android:fontFamily="@font/oswald_bold"
+                android:text="Multi-Purpose Room"
+                android:textColor="@color/black"
+                android:textSize="32.5dp" />
         </LinearLayout>
 
     </LinearLayout>

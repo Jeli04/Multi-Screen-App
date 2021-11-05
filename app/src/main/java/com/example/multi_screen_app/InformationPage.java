@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -45,6 +46,9 @@ public class InformationPage extends Fragment {
                         .navigate(R.id.action_First2Fragment_to_Second2Fragment);
             }
         });
+
+        //((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("MHHS Tour");
+
     }
 
     @Override

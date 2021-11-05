@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -45,6 +46,9 @@ public class Staff extends Fragment {
                 startActivity(intent);
             }
         });
+
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("MHHS Tour");
+
     }
 
     @Override

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SixthFragment">
+    tools:context=".EigthFragment">
 
     <TextView
         android:id="@+id/title"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/oswald_bold"
         android:gravity="center_horizontal"
-        android:text="Learning Commons"
+        android:text="Theatre"
         android:textSize="40dp"
         android:textColor="#6495ED"
         android:textStyle="bold" />
@@ -21,7 +21,7 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="281dp"
-        android:src="@drawable/learning_commons" />
+        android:src="@drawable/theatre1" />
 
     <TextView
         android:id="@+id/Information"
@@ -32,15 +32,15 @@
         android:textStyle="bold"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/alice"
-        android:text="The Learning Commons is in between the C Building and the A Building. The E building houses a library, conference rooms, as well as some Performing Arts courses such as Digital Art, Photography, and Video Production." />
+        android:text="The Theatre is the newest building in the school being next to the front office and houses a large theatre room, as well as rooms for Music related classes." />
 
 
     <Button
         android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
         android:text="@string/previous" />
 
 </LinearLayout>

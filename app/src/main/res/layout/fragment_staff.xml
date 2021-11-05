@@ -10,12 +10,12 @@
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
         android:fontFamily="@font/oswald_bold"
         android:gravity="center_horizontal"
         android:text="Staff"
         android:textColor="#6495ED"
-        android:textSize="40dp"
+        android:textSize="35dp"
         android:textStyle="bold" />
 
 
@@ -28,45 +28,110 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:layout_marginLeft="40dp"
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
+                android:id="@+id/principle"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                tools:src="@tools:sample/avatars" />
+                android:src="@drawable/bf50a8548cb04a44901e4df3e4547bea" />
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:fontFamily="@font/alice"
+                android:text="Benjamin Fobert\ Principle"
+                android:textSize="20dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:layout_marginLeft="40dp"
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="wrap_content"
+                android:id="@+id/viceprinciple"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                tools:src="@tools:sample/avatars" />
+                android:gravity="center_horizontal"
+                android:src="@drawable/pannu_photo" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:fontFamily="@font/alice"
+                android:text="Kamaljit Pannu\nVice Principle"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/galindo_photo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alice"
+                android:text="Guadalupe Galindo\ Athletic Director"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/perez_photo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alice"
+                android:text="Karen Perez\nVP of Alternate Ed"
+                android:textSize="20dp"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 
