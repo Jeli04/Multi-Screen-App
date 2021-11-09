@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -43,7 +42,23 @@ public class InformationPage extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(InformationPage.this)
-                        .navigate(R.id.action_First2Fragment_to_Second2Fragment);
+                        .navigate(R.id.Information_to_Staff);
+            }
+        });
+
+        binding.counselors.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(InformationPage.this)
+                        .navigate(R.id.Information_to_Counselor);
+            }
+        });
+
+        binding.schedule.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(InformationPage.this)
+                        .navigate(R.id.action_InformationPage_to_SchedulePage);
             }
         });
 

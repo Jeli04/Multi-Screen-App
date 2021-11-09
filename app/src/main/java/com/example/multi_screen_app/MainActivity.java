@@ -1,3 +1,9 @@
+/*
+CREATED BY
+JERRY
+AMIR
+SHANIA
+ */
 package com.example.multi_screen_app;
 
 import androidx.appcompat.app.AppCompatActivity;

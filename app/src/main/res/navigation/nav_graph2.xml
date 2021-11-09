@@ -3,26 +3,50 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph2"
-    app:startDestination="@id/First2Fragment">
+    app:startDestination="@id/InformationPage">
 
     <fragment
-        android:id="@+id/First2Fragment"
+        android:id="@+id/InformationPage"
         android:name="com.example.multi_screen_app.InformationPage"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_information_page">
 
         <action
-            android:id="@+id/action_First2Fragment_to_Second2Fragment"
-            app:destination="@id/Second2Fragment" />
+            android:id="@+id/Information_to_Staff"
+            app:destination="@id/StaffPage" />
+        <action
+            android:id="@+id/Information_to_Counselor"
+            app:destination="@id/CounselorPage" />
+        <action
+            android:id="@+id/action_InformationPage_to_SchedulePage"
+            app:destination="@id/SchedulePage" />
     </fragment>
     <fragment
-        android:id="@+id/Second2Fragment"
+        android:id="@+id/StaffPage"
         android:name="com.example.multi_screen_app.Staff"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_staff">
 
         <action
-            android:id="@+id/action_Second2Fragment_to_First2Fragment"
-            app:destination="@id/First2Fragment" />
+            android:id="@+id/Staff_to_Information"
+            app:destination="@id/InformationPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/CounselorPage"
+        android:name="com.example.multi_screen_app.Counselors"
+        android:label="fragment_counselors"
+        tools:layout="@layout/fragment_counselors">
+        <action
+            android:id="@+id/Counselor_to_Information"
+            app:destination="@id/InformationPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/SchedulePage"
+        android:name="com.example.multi_screen_app.Schedule"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_schedule" >
+        <action
+            android:id="@+id/action_SchedulePage_to_InformationPage"
+            app:destination="@id/InformationPage" />
     </fragment>
 </navigation>

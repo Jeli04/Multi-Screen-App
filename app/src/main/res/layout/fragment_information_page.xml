@@ -20,18 +20,18 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
-        android:layout_height="281dp"
+        android:layout_height="275dp"
         android:src="@drawable/abuilding1" />
 
     <TextView
         android:id="@+id/Information"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="158dp"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/alice"
         android:gravity="center"
         android:text="Mountain House High School (MHHS) was established in 2014, and in its short history, the school has broken academic records year after year; eventually becoming one of the highest performing schools in the county. "
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold" />
 
 
@@ -39,27 +39,51 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/back"
-            android:layout_width="75dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="50dp"
-            android:layout_weight="1"
-            android:text="@string/previous" />
-
-        <Button
+        <TextView
             android:id="@+id/staff"
-            android:layout_width="75dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="50dp"
-            android:layout_marginLeft="40dp"
-            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#4FA7EA"
+            android:fontFamily="@font/oswald_bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"
             android:text="Staff" />
+
+        <TextView
+            android:id="@+id/counselors"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#979696"
+            android:fontFamily="@font/oswald_bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:text="Counselors" />
+
+        <TextView
+            android:id="@+id/schedule"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#4FA7EA"
+            android:fontFamily="@font/oswald_bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:text="Bell Schedule" />
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#979696"
+            android:fontFamily="@font/oswald_bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:text="Previous" />
     </LinearLayout>
 
 </LinearLayout>

@@ -35,7 +35,7 @@ public class Staff extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(Staff.this)
-                        .navigate(R.id.action_Second2Fragment_to_First2Fragment);
+                        .navigate(R.id.Staff_to_Information);
             }
         });
 

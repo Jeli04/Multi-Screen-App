@@ -48,8 +48,8 @@
                 android:layout_height="wrap_content"
                 android:background="#979696"
                 android:fontFamily="@font/oswald_bold"
-                android:text="C Building"
                 android:textColor="@color/black"
+                android:text="C Building"
                 android:textSize="32dp" />
 
             <TextView
