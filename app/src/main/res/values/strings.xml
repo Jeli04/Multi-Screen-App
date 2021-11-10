@@ -14,4 +14,5 @@
     <string name="title_activity_content_information_page">ContentInformationPage</string>
     <string name="title_activity_information_page">InformationPage</string>
     <string name="title_activity_information_section">InformationSection</string>
+    <string name="title_activity_main3">MainActivity</string>
 </resources>

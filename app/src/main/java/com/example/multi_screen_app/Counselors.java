@@ -3,6 +3,7 @@ package com.example.multi_screen_app;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -40,6 +41,8 @@ public class Counselors extends Fragment {
                 startActivity(intent);
             }
         });
+
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("MHHS Tour");
 
         return view;
     }

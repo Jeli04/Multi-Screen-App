@@ -1,6 +1,5 @@
 package com.example.multi_screen_app;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Schedule extends Fragment {
+public class Basketball extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -23,21 +22,13 @@ public class Schedule extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_schedule, container, false);
+        View view = inflater.inflate(R.layout.fragment_basketball, container, false);
 
         view.findViewById(R.id.back).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(Schedule.this)
-                        .navigate(R.id.action_SchedulePage_to_InformationPage);
-            }
-        });
-
-        view.findViewById(R.id.Home).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), MainActivity.class);
-                startActivity(intent);
+                NavHostFragment.findNavController(Basketball.this)
+                        .navigate(R.id.action_basketball_to_ActivitiesPage);
             }
         });
 

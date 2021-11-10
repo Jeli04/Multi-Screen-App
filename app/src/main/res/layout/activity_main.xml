@@ -24,6 +24,7 @@
         android:id="@+id/imageView5"
         android:layout_width="match_parent"
         android:layout_height="151dp"
+        android:layout_marginTop="10dp"
         app:srcCompat="@drawable/textlogowithimage" />
 
     <Button
@@ -35,10 +36,18 @@
         android:text="Campus Tour" />
 
     <Button
+        android:id="@+id/Activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        android:text="Activities" />
+
+    <Button
         android:id="@+id/Information"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="20dp"
         android:layout_gravity="center"
 
         android:text="Information" />

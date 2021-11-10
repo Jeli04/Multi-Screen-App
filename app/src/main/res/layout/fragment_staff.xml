@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
-                android:text="Benjamin Fobert\ Principle"
+                android:text="Benjamin Fobert\ Principal"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
-                android:text="Kamaljit Pannu\nVice Principle"
+                android:text="Kamaljit Pannu\nVice Principal"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>

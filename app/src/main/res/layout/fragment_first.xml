@@ -38,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:background="#4FA7EA"
                 android:fontFamily="@font/oswald_bold"
+                android:gravity="center"
                 android:text="A Building"
                 android:textColor="@color/black"
                 android:textSize="32dp" />
@@ -49,6 +50,7 @@
                 android:background="#979696"
                 android:fontFamily="@font/oswald_bold"
                 android:textColor="@color/black"
+                android:gravity="center"
                 android:text="C Building"
                 android:textSize="32dp" />
 
@@ -58,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:background="#4FA7EA"
                 android:fontFamily="@font/oswald_bold"
+                android:gravity="center"
                 android:text="E Building"
                 android:textColor="@color/black"
                 android:textSize="32dp" />
@@ -68,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:background="#979696"
                 android:fontFamily="@font/oswald_bold"
+                android:gravity="center"
                 android:text="Gymnasium"
                 android:textColor="@color/black"
                 android:textSize="32dp" />
@@ -78,6 +82,7 @@
                 android:layout_height="wrap_content"
                 android:background="#4FA7EA"
                 android:fontFamily="@font/oswald_bold"
+                android:gravity="center"
                 android:text="Library"
                 android:textColor="@color/black"
                 android:textSize="32dp" />
@@ -88,6 +93,7 @@
                 android:layout_height="wrap_content"
                 android:background="#979696"
                 android:fontFamily="@font/oswald_bold"
+                android:gravity="center"
                 android:text="Theatre"
                 android:textColor="@color/black"
                 android:textSize="32dp" />
@@ -98,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:background="#4FA7EA"
                 android:fontFamily="@font/oswald_bold"
+                android:gravity="center"
                 android:text="Multi-Purpose Room"
                 android:textColor="@color/black"
                 android:textSize="32.5dp" />

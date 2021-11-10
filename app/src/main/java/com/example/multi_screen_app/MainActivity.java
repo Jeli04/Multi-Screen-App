@@ -28,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button Activities = findViewById(R.id.Activities);
+        Activities.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MainActivity3.class));
+            }
+        });
+
         Button information = findViewById(R.id.Information);
         information.setOnClickListener(new View.OnClickListener() {
             @Override

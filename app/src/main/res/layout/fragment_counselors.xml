@@ -37,7 +37,7 @@
                 android:id="@+id/principle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/bf50a8548cb04a44901e4df3e4547bea" />
+                android:src="@drawable/counselor1" />
 
             <TextView
                 android:id="@+id/textView"
@@ -45,7 +45,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
-                android:text="Benjamin Fobert\ Principle"
+                android:gravity="center"
+                android:text="Wajma Aslami"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -63,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:src="@drawable/pannu_photo" />
+                android:src="@drawable/counselor2" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -71,7 +72,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
-                android:text="Kamaljit Pannu\nVice Principle"
+                android:gravity="center"
+                android:text="Adriana Dooner"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -95,7 +97,7 @@
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/galindo_photo" />
+                android:src="@drawable/counselor3" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -103,7 +105,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
-                android:text="Guadalupe Galindo\ Athletic Director"
+                android:gravity="center"
+                android:text="Karen Friesen"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -121,7 +124,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:src="@drawable/perez_photo" />
+                android:src="@drawable/counselor4" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -129,7 +132,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/alice"
-                android:text="Karen Perez\nVP of Alternate Ed"
+                android:gravity="center"
+                android:text="Valerie Myers"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>

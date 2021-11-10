@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MultiScreenApp">
         <activity
+            android:name=".MainActivity3"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.MultiScreenApp.NoActionBar"></activity>
+        <activity
             android:name=".InformationSection"
             android:label="@string/title_activity_information_section"
-            android:theme="@style/Theme.MultiScreenApp.NoActionBar"></activity>
+            android:theme="@style/Theme.MultiScreenApp.NoActionBar" />
         <activity android:name=".MainActivity2" />
         <activity
             android:name=".campusMap"
